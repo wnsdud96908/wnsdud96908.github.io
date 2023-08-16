@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5beeb770.css",
-    "main.js": "/static/js/main.580ee2c7.js",
+    "main.css": "/static/css/main.f0903a21.css",
+    "main.js": "/static/js/main.1d683096.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mixkit-fast-double-click-on-mouse-275.mp3": "/static/media/mixkit-fast-double-click-on-mouse-275.e758e4b03a23060754fe.mp3",
     "static/media/RobotoSlab-Black.ttf": "/static/media/RobotoSlab-Black.b1eefbae7b352cda1c3a.ttf",
     "static/media/RobotoSlab-Bold.ttf": "/static/media/RobotoSlab-Bold.aea772dee2141c9b0792.ttf",
     "static/media/RobotoSlab-Regular.ttf": "/static/media/RobotoSlab-Regular.7ff9da9c484d15185b5b.ttf",
-    "static/media/Daniel Resume.pdf": "/static/media/Daniel Resume.b966a1e1e59d5128dca6.pdf",
     "static/media/GildaDisplay-Regular.ttf": "/static/media/GildaDisplay-Regular.f712cdf2015640c8cc1e.ttf",
     "static/media/gotosite.webp": "/static/media/gotosite.dc2459843a8d51a90e5d.webp",
     "static/media/github.webp": "/static/media/github.ed1c06d925fff0b57e32.webp",
     "index.html": "/index.html",
-    "main.5beeb770.css.map": "/static/css/main.5beeb770.css.map",
-    "main.580ee2c7.js.map": "/static/js/main.580ee2c7.js.map",
+    "main.f0903a21.css.map": "/static/css/main.f0903a21.css.map",
+    "main.1d683096.js.map": "/static/js/main.1d683096.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5beeb770.css",
-    "static/js/main.580ee2c7.js"
+    "static/css/main.f0903a21.css",
+    "static/js/main.1d683096.js"
   ]
 }
