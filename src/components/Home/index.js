@@ -1,6 +1,6 @@
-import Typewriter from "typewriter-effect";
-import GraphemeSplitter from "grapheme-splitter";
-import "../../App.css";
+import Typewriter from 'typewriter-effect';
+import GraphemeSplitter from 'grapheme-splitter';
+import '../../App.css';
 
 export default function Home() {
   const stringSplitter = (string) => {
@@ -13,21 +13,19 @@ export default function Home() {
         className="head text-5xl font-semibold tracking-[3px] pb-2 "
         data-aos="zoom-in-up"
       >
-        Welcome
+        환영합니다.
       </h1>
       <div
         className="text-4xl text-yellow-500 pb-16"
         data-aos-delay="700"
         data-aos="zoom-in"
       >
-        {" "}
+        {' '}
         <Typewriter
           options={{
             strings: [
-              "✋I'm Daniel Jebarson",
-              "I'm an enthusiast Full-Stack 🌐developer",
-              "I'm a 4th yr CSE 👨‍🎓 in VIT Vellore",
-              "You can 📲 me through discord or ✉️",
+              '✋저는 이준영 입니다.',
+              '백 & 프론트 개발자를 희망하고 있습니다.',
             ],
             delay: 150,
             pauseFor: 1500,

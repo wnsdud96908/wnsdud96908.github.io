@@ -1,11 +1,11 @@
-import "../../App.css";
-import DownloadIcon from "@mui/icons-material/Download";
+import '../../App.css';
+import DownloadIcon from '@mui/icons-material/Download';
 // import LearningCode from "../../assets/images/learn-coding-clipart.svg";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
+import * as LottiePlayer from '@lottiefiles/lottie-player';
 
 export default function About() {
   const getDate = () => {
-    var dob = new Date("01/21/2003");
+    var dob = new Date('01/21/2003');
     var month_diff = Date.now() - dob.getTime();
     var age_dt = new Date(month_diff);
     var year = age_dt.getUTCFullYear();
@@ -17,36 +17,29 @@ export default function About() {
       id="about"
       className="min-h-screen bg-white flex flex-col text-center gap-5 text-black text-lg  font-normal"
     >
-      <div className="head text-5xl mt-12 font-bold" data-aos={"slide-down"}>
+      <div className="head text-5xl mt-12 font-bold" data-aos={'slide-down'}>
         About Me
       </div>
       <div className="flex flex-row  gap-6 ml-8">
-        <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
-          <h3 className="text-3xl font-medium" data-aos={"fade-left"}>
-            I'm <span className="text-yellow-600">Daniel Jebarson,</span> a Web
-            Enthusiast
-          </h3>
-          <p
-            className="pt-5 leading-7 text-slate-900 text-justify"
-            data-aos={"fade-left"}
-          >
-            I love playing music, reading comics and playing games. I am
-            currently pursuing BTech degree in VIT Vellore. I am {getDate()}{" "}
-            years old.I love exploring new technologies.
-          </p>
-          <p
-            className="text-justify leading-7 text-slate-900"
-            data-aos={"fade-right"}
-          >
-            I am currently looking for jobs. I am also a discord bot developer.
-            I worked on reactJs, NextJs, TypeScript, Java and many more. I am
-            also looking to collaborate in open-source projects.
-          </p>
+        <div className=" mt-14 flex flex-auto w-64 gap-6">
+          <div className="poto">
+            <img src="/img.jpg" alt="증명사진" />
+          </div>
+          <div className="content">
+            <p>이름: 이준영</p>
+            <p>나이: 27세</p>
+            <p>학력: 대구공업대학교 전자정보과 졸업</p>
+            <p>
+              수료내역: (산대특)Node.js를 활용한 백&프론트 웹개발자 양성과정
+              수료(2023-01-30 ~ 2023-07-28)
+            </p>
+            <p>자격증: 정보처리산업기사</p>
+          </div>
         </div>
 
         <div
           class="relative flex-auto w-32   sm:rounded-lg  pl-4"
-          data-aos={"slide-left"}
+          data-aos={'slide-left'}
         >
           {/* <img
             src={LearningCode}
@@ -59,19 +52,85 @@ export default function About() {
               loop
               mode="bounce"
               src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
-              style={{ width: "350px" }}
+              style={{ width: '350px' }}
             />
           </div>
-          <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
+          {/* <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
             <a
-              href={require("../../assets/files/Daniel Resume.pdf")}
+              href={require('../../assets/files/Daniel Resume.pdf')}
               download={"Dani'sResume.pdf"}
             >
               Download CV
               <DownloadIcon />
             </a>
-          </button>
+          </button> */}
         </div>
+      </div>
+      <div className="text-3xl font-bold py-3">My Skills</div>
+      <div className="MySkillImage">
+        <img
+          className="ml-8"
+          src="/590px-Node.js_logo.svg.png"
+          alt="node.js"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/React.jpeg"
+          alt="react"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/Html1.svg"
+          alt="html"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/javascript.png"
+          alt="javascript"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/Mysql.svg"
+          alt="mysql"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/Linux.webp"
+          alt="linux"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/ts_image.png"
+          alt="typescript"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/AWS.png"
+          alt="AWS"
+          width={'100px'}
+          height={'100px'}
+        />
+        <img
+          className="ml-8"
+          src="/docker.webp"
+          alt="docker"
+          width={'100px'}
+          height={'100px'}
+        />
       </div>
     </div>
   );
