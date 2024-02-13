@@ -64,16 +64,6 @@ export default function Slidebar() {
           {' '}
           <LinkedInIcon className="cursor-pointer hover:scale-105" />
         </div>
-        <div
-          onClick={() =>
-            window.open(
-              'https://www.facebook.com/profile.php?id=100007242185110',
-              '_blank'
-            )
-          }
-        >
-          <FacebookIcon className="cursor-pointer hover:scale-105" />
-        </div>
       </div>
     </div>
   );

@@ -77,9 +77,11 @@
   text-align: left;
   font-size: 18px;
 }
-
+.MySkills {
+}
 .MySkillImage {
   display: flex;
+  flex-direction: row;
 }
 .poto {
   display: flex;
